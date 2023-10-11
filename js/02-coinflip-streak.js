@@ -1,5 +1,5 @@
 
-let coinFlip=0||1
+let coinFlip=0
 
 do{
 
