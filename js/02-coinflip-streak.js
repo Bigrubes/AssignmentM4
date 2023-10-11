@@ -1,13 +1,16 @@
-let coinFlip = 0
+
+let coinFlip=0||1
+
 do{
+
     let num = Math.round(Math.random())
-    console.log(coinFlip)
+    console.log(num)
     if(num === 0){
     console.log("Heads")
     }else{
-        console.log("Tails")
+
+    console.log("Tails, end of program")
     }
-} while (coinFlip === "Tails")
-console.log( "Tails, End of game")
+    coinFlip++
 
-
+} while (coinFlip<20)
